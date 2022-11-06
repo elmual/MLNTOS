@@ -1,4 +1,4 @@
-<script>
+
         let ad = prompt('adi yaz:');
         let yas = prompt('yasinizi yazin:');
         let netice;
@@ -26,4 +26,3 @@
         }
 
         document.getElementById('qoca').innerHTML = netice;
-    </script>
