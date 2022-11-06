@@ -10,19 +10,19 @@
             netice = ad + ' yeniyetmedir!';
         }
         else if  (yas >= 18 && yas < 36) {
-            netice = ad + ' gencdir!'
+            netice = ad + ' gencdir!';
         }
         else if  (yas >= 36 && yas <= 45) {
-            netice = ad + ' cavandir!'
+            netice = ad + ' cavandir!';
         }
         else if  (yas >= 45 && yas <= 65) {
-            netice = ad + ' yasli!'
+            netice = ad + ' yasli!';
         }
         else if  (yas >= 65 && yas <= 100) {
-            netice = ad + ' qoca!'
+            netice = ad + ' qoca!';
         }
         else {
-            netice = ad + ' sen olmusen xeberin yoxdur!'
+            netice = ad + ' sen olmusen xeberin yoxdur!';
         }
 
         document.getElementById('qoca').innerHTML = netice;
