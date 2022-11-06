@@ -1,0 +1,51 @@
+
+		button {
+			 font-family: 'Lobster', cursive;
+
+		}
+
+		button	{
+			background-image:url(choco1.jpg);
+			padding: 50px;
+			width: 450px;
+			height: 450px;
+			text-align: centerS;
+			transition: 1s;
+		}
+
+		button:focus {
+			background-image: url(choco.jpg);
+		}
+		button {
+			color: darkred;
+		}
+		ol  {
+			 font-family: 'Lobster', cursive;
+
+		}
+		ol:focus-within{
+			background-color: khaki;
+		}
+		p  {
+			 font-family: 'Lobster', cursive;
+
+		}
+		h1 {
+			 font-family: 'Lobster', cursive;
+
+		}
+		* {
+			padding: 0;
+			margin: 0;
+		}
+		html,body {
+			height: 100%;
+		}
+		div {
+			display: inline-block;
+			background-image: url(77.jpg) ;
+			color: white;
+			height: 50%;
+			width: 47%;
+			margin: 5px;
+		}
